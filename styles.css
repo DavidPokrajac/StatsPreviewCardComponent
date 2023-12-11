@@ -36,12 +36,11 @@ img, picture {
 }
 
 picture {
-    background-color: black;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: top left;
-    position: relative;
-    z-index: 2;
+    background-color: var(--color-accent-400);
+}
+
+picture img {
+    mix-blend-mode: multiply;
 }
 
 @media (min-width: 600px) {
