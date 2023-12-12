@@ -15,15 +15,15 @@
     <article class="article">
       <picture>
         <source media="(min-width: 376px)" srcset="./images/image-header-desktop.jpg" />
-        <img src="./images/image-header-mobile.jpg" />
+        <img src="./images/image-header-mobile.jpg" alt="" />
       </picture>
-      <div class="article__info">
-        <h1 class="article__info-heading">Get <mark>insights</mark> that help your business grow.</h1>
+      <div class="article__info" aria-labelledby="heading">
+        <h1 id="heading" class="article__info-heading">Get <mark>insights</mark> that help your business grow.</h1>
         <p class="article__info-intro">
           Discover the benefits of data analytics and make better decisions regarding revenue, customer 
           experience, and overall efficiency.
         </p>
-        <div class="article__info-stats">
+        <div class="article__info-stats" aria-description="Statistics showing number of companies, templates and queries">
           <span>
             <strong class="small-caps">10k+</strong>companies
           </span>
